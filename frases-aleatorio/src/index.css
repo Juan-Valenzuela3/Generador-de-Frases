@@ -1,0 +1,94 @@
+body {
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+  transition: background-color 1s ease;
+  flex-direction: column;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 600px; 
+  height: fit-content;
+  border-radius: 3px;
+  
+}
+
+#quote-box {
+  padding: 40px;
+  width: 100%;
+}
+
+#text {
+  color: orange;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+
+#new-quote {
+  height: 38px;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 3px;
+  width: 90px;
+  margin-left: 55%;
+  transition: background-color 1s ease;
+}
+
+#new-quote:hover {
+  cursor: pointer;
+}
+
+.comilla {
+  font-size: 35px;
+  color: orange;
+}
+
+.social-media {
+  color: orange;
+  font-size: 44px;
+  padding-right: 110px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  
+}
+
+.author {
+  color: orange;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.quote-transition {
+  opacity: 0;
+  transition: opacity 0.5s ease; /* Transición suave para la opacidad */
+}
+
+.quote-transition.show {
+  opacity: 1;
+}
+
+
+.desing {
+  color: white;
+  font-weight: 200;
+}
